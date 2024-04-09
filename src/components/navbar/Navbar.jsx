@@ -221,13 +221,8 @@ const Navbar = () => {
               </div>
               <div className=" flex items-center gap-2">
 
-<<<<<<< HEAD
               <div className=" w-[50%]" onClick={toggleSelected}>
                   <Wallets img={Fantom} walletName="Phantom Wallet" />
-=======
-                <div className=" w-[50%]" onClick={toggleSelected}>
-                  <Wallets img={Fantom} walletName="Fantom Wallet" />
->>>>>>> parent of f2f877d (correct wallet name)
                 </div>
 
               <div className=" w-[50%]" onClick={toggleSelected}>
