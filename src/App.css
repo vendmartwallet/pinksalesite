@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.price {
+  background-color: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.284), 0 4px 8px rgba(0, 0, 0, 0.01),
+    0 8px 12px rgba(0, 0, 0, 0.01), 0 12px 16px rgba(0, 0, 0, 0.01);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 1.5s ease-in-out infinite;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+/* Width of the scrollbar */
+.scrollcontainer::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.scrollcontainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.scrollcontainer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.scrollcontainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
